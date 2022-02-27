@@ -13,6 +13,7 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -30,6 +31,20 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd){ /* 2n -1 */
+            background-color: rgb(255, 255, 255);
+        }
+
+        tbody > tr:nth-child(even){ /* 2n */
+            background-color: lightgray;
         }
 
         td.num{
@@ -172,5 +187,13 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque explicabo maiores nobis est dolores error. Perferendis alias consectetur reprehenderit ab. Quia asperiores ipsum nam excepturi enim, accusamus laborum sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquid vero eaque mollitia, necessitatibus eum, deserunt porro modi ab esse doloremque, numquam id consequatur! Consequuntur eius quisquam ipsam quod culpa.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque explicabo maiores nobis est dolores error. Perferendis alias consectetur reprehenderit ab. Quia asperiores ipsum nam excepturi enim, accusamus laborum sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquid vero eaque mollitia, necessitatibus eum, deserunt porro modi ab esse doloremque, numquam id consequatur! Consequuntur eius quisquam ipsam quod culpa.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque explicabo maiores nobis est dolores error. Perferendis alias consectetur reprehenderit ab. Quia asperiores ipsum nam excepturi enim, accusamus laborum sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquid vero eaque mollitia, necessitatibus eum, deserunt porro modi ab esse doloremque, numquam id consequatur! Consequuntur eius quisquam ipsam quod culpa.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque explicabo maiores nobis est dolores error. Perferendis alias consectetur reprehenderit ab. Quia asperiores ipsum nam excepturi enim, accusamus laborum sequi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquid vero eaque mollitia, necessitatibus eum, deserunt porro modi ab esse doloremque, numquam id consequatur! Consequuntur eius quisquam ipsam quod culpa.</p>
 </body>
 </html>
