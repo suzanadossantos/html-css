@@ -8,11 +8,11 @@
 }
 
 body, html{
-    background-color: lightgray;
+    background-color: rgba(0, 0, 255, 0.527);
 }
 
 header{
-    background-color: gray;
+    background-color: rgba(78, 181, 199, 0.719);
 }
 
 header > h1{
@@ -33,20 +33,19 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(109, 108, 108);
+    background-color: lightblue;
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid rgba(78, 181, 199, 0.719);
 }
 
 menu > ul > li > a:hover{
-    background-color: rgba(117, 114, 114, 0.568);
+    background-color: black;
 }
 
 main{
     width: 90vw;
     background-color: white;
-    margin-top: 10px;
-    margin: auto;
+    margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
 }
