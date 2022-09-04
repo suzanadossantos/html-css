@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* max-width: 600px for mobile devices
+   min-width: 600px for iPads & tablets
+   min-width: 768px for small screens like laptop
+   min-width: 992px for large screens like Desktops
+   min-width: 1200px and above for extra large screens like TV.
+*/
+
+@media screen and (min-width: 768px){
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
